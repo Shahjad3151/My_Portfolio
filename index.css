@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container-fluid{
+    font-family:helvatica;
+}
+.navbar p{
+    font-size: 4vh;
+    color: #e610e6;
+    font-weight: 600; 
+}
+.navbar{
+    background-color: rgb(182, 239, 220);
+    font-size: 3vh;    
+}
+.home-content{
+    margin-top: 16vh;
+   
+}
+.home-content h1{
+    font-size: 8vh;
+    font-weight: 600;
+    margin-top: 5vh;
+}
+.home-content h3{
+    font-size: 6vh;
+    font-weight: 600;
+}
+.home-content p{
+    font-size: 4vh;
+    font-weight: 400; 
+    margin-top: 3vh;  
+}
+#b1{
+    border-radius: 1rem;
+}
+#b1:hover{
+    background-color: #e610e6;
+}
+#l1:hover{
+    background-color: #e610e6;
+}
+#im1{
+    margin-top: 14vh;
+    width:33vw;
+    height: 74vh;
+    margin-left: 10vw;
+    border-radius: 2rem;
+}
+@media only screen and (max-width:575px) {
+    #im1{
+        width:55vw;
+        height: 70vh;
+        margin-top: 4vh;
+    }
+    .home-sci{
+        margin-top: 1vh;
+    }
+
+}
+
+/* About */
+.about_me h1{
+    margin-left: 20vw;
+    margin-top: 10vh;
+    font-weight: 600;
+}
+.about_me h4{
+    margin-top: 3vh;
+    margin-left: 7vw;
+    font-size: 3.4vh;
+}
+#r1{
+    margin-left: 7vw;
+    border-radius: 1rem;
+}
+#im2{
+    margin-top: 20vh;
+    width:33vw;
+    height: 74vh;
+    margin-left: 10vw;
+    border-radius: 2rem;
+}
+@media only screen and (max-width:576px) {
+    #im2{
+        width:60vw;
+        height: 70vh;
+        margin-top: 4vh;
+       
+    }
+    .about_me h1{
+        margin-top: -10vh;
+    }
+    .about_me h4{
+        margin-left: 0vw;
+        font-size: 3.4vh; 
+    }
+}
+/* skill */
+.skill h1{
+   margin-left: 30vw;
+   margin-top: 25vh;
+}
+.s-container {
+    width: 40vw;
+    margin-left: 25vw;
+}
+@media only screen and (max-width:576px) {
+    .s-container {
+        margin-left: 8vw;
+        width: 78vw;
+      
+    }
+   
+}
+/* projects*/
+.pr{
+    margin-top:27vh;
+    margin-left: 40vw;
+}
+.row .card{
+    margin-top: 15vh;
+    margin-left: 4vw;
+    width: 18vw;
+    height:38vh;
+    padding: 1vh;
+    background-color: rgb(235, 183, 241);
+}
+.card-img-top{
+    width:13vw ;
+    height: 20vh;
+}
+@media only screen and (max-width:576px) {
+    .row .card {
+        height: 40vh;
+        width: 38vw;      
+    }
+}
+/* contacts*/
+#prr{
+    margin-top:13vh ;
+    margin-left: 40vw;
+}
+#table{
+    background-color: rgb(151, 223, 223);
+    margin-top:5vh;
+    margin-bottom: 3vh;
+    margin-left: 30vw;
+    height:70vh;
+    width:32vw;
+    box-shadow: 2px 12px rgb(249, 5, 152);
+    border-radius: 2rem;
+    }
+    tr{
+        font-size:3vh;
+        padding-top: 3vh;
+    }
+    td{
+        font-size:3vh;
+        padding-left: 2vw;
+    }
+    input{
+        font-size: 3vh;
+        border-radius: 1rem;
+        border: 2px solid black;
+    }
+    #msg{
+        display: none;
+        font-size: 2vh;
+    }
+    #msg1{
+        display: none;
+        font-size: 2vh;
+    }
+    #msg2{
+        display: none;
+        font-size: 2vh;
+    }
+    #msg3{
+        display: none;
+        font-size: 2vh;
+    }
+    #msg4{
+        display: none;
+        font-size: 2vh;
+    }
+    #msg5{
+        display: none;
+        font-size: 2vh;
+    }
+    #t{
+        padding-left: 6vw;
+        font-size:4vh;
+        font-weight: bold;
+        background-color: blue;
+        border-radius: 2rem;
+        height: 4vh;
+    }
+    #b2{
+        border-radius: 0.5rem;
+        font-size: 2.5vh;
+    }
+    #b2:hover{
+        background-color: #e610e6;
+        
+    }
+    @media only screen and (max-width:576px) {
+        #table{
+            margin-left: 10vw;
+            }
+            #prr{
+                margin-top:10vh ;
+                margin-left: 20vw;
+            }
+    } 
+   
